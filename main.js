@@ -86,11 +86,20 @@ async function connectToWss(socks5Proxy, userId) {
 }
 
 async function main() {
-    const userId = '';
+    const userId = '05c77a38-bfcb-4e04-9ecb-c5882f389988';
 
     // TODO: Modify proxy list
     const socks5ProxyList = [
-
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10000",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10001",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10002",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10003",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10004",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10005",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10006",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10007",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10008",
+        "socks5://c6e386e13b658232:RNW78Fm5@res.proxy-seller.com:10009",
     ];
 
     // Connect to WebSocket server using each SOCKS5 proxy
